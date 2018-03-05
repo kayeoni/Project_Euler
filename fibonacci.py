@@ -1,5 +1,5 @@
 save = {0:0, 1:1}
-def fibm(n):                # This is the faster methon than the below
+def fibm(n):                # This is the faster method than the below
     if not n in save:
         save[n] = fibm(n-1) + fibm(n-2)
     return save[n]
